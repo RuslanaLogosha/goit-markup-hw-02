@@ -89,8 +89,8 @@ header {
   background-color: #2196F3; /* will be removed later */
 }
 
-/* Button */
-
+/* Buttons */
+/* button for index.html */
 .button {
 font-weight: 700;
 font-size: 16px;
@@ -100,6 +100,26 @@ color: var(--main-title-color);
 background-color: var(--accent-text-color);
 }
 
+/* buttons for portfolio.html */
+.button-primary {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--main-title-color);
+  background-color: var(--accent-text-color);
+}
+
+.button-secondary {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--titles-text-color);
+  background-color: var(--team-background-color);
+}
 /* Advantages */
 .advantages {
   background-color: var(--main-background-color);
@@ -223,3 +243,32 @@ text-align: center;
 letter-spacing: 0.03em;
 color: var(--signature-text-color);
 }
+
+/* Portfolio.css (exept buttons) */
+
+.examples .examples-headings {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--titles-text-color);
+}
+
+.examples .examples-type {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+}
+
+.examples .examples-text {
+font-size: 18px;
+line-height: 1.55;
+letter-spacing: 0.03em;
+color: var(--main-title-color);
+background-color: var(--accent-text-color); /* temporary */
+}
+
