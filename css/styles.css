@@ -272,3 +272,6 @@ color: var(--main-title-color);
 background-color: var(--accent-text-color); /* temporary */
 }
 
+.main {
+  background-color: var(--main-title-color);
+}
